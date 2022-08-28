@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Prabhu Karki | Portfolio</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript">
+      function sendEmail(argument){
+      Email.send({
+      Host : "smtp.elasticemail.com",
+      Username : "nepalprabhu123@gmail.com",
+      Password : "37DE7ECF0DA373FC598EEB10357EFA31F8B8",
+      // To : 'prabhukarki@myself.com',
+      To : 'technicalbug47@gmail.com', 
+      // To : 'technicalbug47@gmail.com',
+      From : "nepalprabhu123@gmail.com",
+      Subject : "Message from Porfolio website",
+      Body: 'Name: ' + document.getElementById('name').value
+      + '<br> Email: ' + document.getElementById('email').value
+      + '<br> Phone No: ' + document.getElementById('phone').value
+      + '<br> Message: ' + document.getElementById('message').value
+  }).then(
+    message => alert('Your message was sent successfully')
+  );
+  
+      }
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="html, css, javascript, jquery">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/vendor/animate.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+    
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
+      </div>
+      <div class="site-mobile-inner"></div>
+    </nav>
+
+
+    <div class="unslate_co--site-wrap">
+
+      <div class="unslate_co--site-inner">
+
+        <div class="lines-wrap">
+          <div class="lines-inner">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <!-- END lines -->
+      
+      <nav class="unslate_co--site-nav site-nav-target">
+
+        <div class="container">
+        
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#contact-section" class="nav-link">Hire Me</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <!-- <li><a href="#services-section" class="nav-link">Services</a></li> -->
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">Prabhu Karki<span>.</span></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#skills-section" class="nav-link">Skills</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </nav>
+      <!-- END nav -->
+
+      <div class="cover-v1 jarallax" style="background-image: url('images/cover_bg_2.jpg');" id="home-section">
+        <div class="container">
+          <div class="row align-items-center">
+              
+            <div class="col-md-7 mx-auto text-center">
+              <h2 class="subheading gsap-reveal-hero"><b>Hello,</b></h2>
+              <h2 class="subheading gsap-reveal-hero">I’m Prabhu Karki | A Backend Developer</h2>
+            </div>
+
+          </div>
+        </div>
+
+
+        <a href="#portfolio-section" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Scroll</span>
+        </a>
+
+      </div>
+      <!-- END .cover-v1 -->
+      
+      <div class="unslate_co--section">
+        <div class="container">
+          <div class="owl-carousel logo-slider">
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-google.png" alt="Image" class="img-fluid">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-puma.png" alt="Image" class="img-fluid">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-paypal.png" alt="Image" class="img-fluid">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-adobe.png" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+          
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">About Me</span></h2>
+            <span class="gsap-reveal">
+            <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+          
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img ">
+                <img src="images/about_me_pic2.jpg" alt="Image" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3"><span class="gsap-reveal">We can make it together</span></h3>
+              <p class="lead gsap-reveal">Prabhu Karki is a reputed Backend developer who is in this game since many years. </p>
+              <p class="mb-4 gsap-reveal">Beside being a Backend developer, He has a good knowledge of Html/CSS and also a fast typist. He can type in average of 90wpm with great accuracy. He is really loves what he is doing and even his clients are happy with it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+      <!-- My Skills -->
+      <div class="unslate_co--section section-counter" id="skills-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Skills</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row pt-5">
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="65">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Python</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="60">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Django</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="105">0</span>
+                  <span class="append-text">WPM</span>
+                </span>
+                <span class="counter-label">Typing</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="75">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Html/CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- My skills ends here -->
+      <!-- END .counter -->   
+    
+      <div class="unslate_co--section" id="contact-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Get In Touch</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row justify-content-between">
+            
+            <div class="col-md-6">
+              <form method="post" class="form-outline-style-v1" id="contactForm">
+                <div class="form-group row mb-0">
+
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="name">Name</label>
+                    <input name="name" type="text" class="form-control" id="name">
+                  </div>
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="email">Email address</label>
+                    <input name="email" type="email" class="form-control" id="email">
+                  </div>
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="phone">Phone Number</label>
+                    <input name="phone" type="number" class="form-control" id="phone">
+                  </div>
+                  <div class="col-lg-12 form-group gsap-reveal">
+                    <label for="message">Write your message...</label>
+                    <textarea name="message" id="message" cols="30" rows="7" class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="form-group row gsap-reveal">
+                    <div class="col-md-12 d-flex align-items-center">
+                      <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="Shoot Message" onclick="sendEmail(); reset(); return false;">
+                      <span class="submitting">submitting</span>
+                    </div>
+                  </div>
+              </form>
+              <div id="form-message-warning" class="mt-4"></div> 
+              <div id="form-message-success">
+                Your message was sent, thank you!
+              </div>
+
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-info-v1">
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Email</span>
+                  <a href="#" class="contact-info-val">prabhukarki@myself.com</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Phone</span>
+                  <a href="#" class="contact-info-val">N.A</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Address</span>
+                  <address class="contact-info-val">273 South Riverview Rd. <br> New York, NY 10011</address>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div> <!-- END .unslate_co-site-inner -->
+
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              
+              <div class="footer-site-logo"><a href="#">Prabhu Karki</a></div>
+
+              <ul class="footer-site-social">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Instagram</a></li>
+              </ul>
+
+              <p class="site-copyright">
+                
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is made by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      
+    </div>
+
+    
+    <!-- Loader -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
